@@ -1,0 +1,105 @@
+/* &display=swap&subset=cyrillic-ext */
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap&display=swap&subset=cyrillic-ext');
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Regular.woff2") format("woff2"),
+		 url("../fonts/Gilroy-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Bold.woff2") format("woff2"),
+		 url("../fonts/Gilroy-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+/**Обнуление*/
+*,
+*::backdrop,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+/**-------------------------------*/
+
+body {
+	font-family: "League Spartan", sans-serif;
+	width: 950px;
+}
+.texth1 {
+	margin: 10px;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 700;
+}
+
+img {
+	margin: 10px;
+	
+}
+p {
+	padding: 16px 16px;
+	
+}
+.text {
+	color: #373939;
+	font-size: 20px;
+	line-height:  25px;
+	text-align: left;
+	border: 2px solid black;
+}
+
+a {
+	font-family: "Gilroy";
+	font-size: 22px;
+	color: #5b8789;
+}
+
+.teg {
+	font-family: "Gilroy";
+font-size: 20px;
+font-style: initial;
+text-decoration-line: underline;
+text-shadow: 1px 5px 12px #000;
+}
+
+.word__text {
+	color: rgba(29, 29, 110, 0.548);
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	
+}
+
+.text__paragraph {
+	word-spacing: 20px;
+	text-indent: 50px;
+	text-align: center;
+}

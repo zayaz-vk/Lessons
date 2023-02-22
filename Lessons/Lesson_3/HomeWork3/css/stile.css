@@ -1,0 +1,94 @@
+/**Обнуление*/
+*,
+*::backdrop,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+/**-------------------------------*/
+
+body{
+	font-family: 'League Spartan', sans-serif;
+}
+#top{
+	color: rgb(33, 2, 65);
+}
+.texth1 {
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 700;
+	padding: 5px;
+	margin: 10px;
+	border: 100px;
+}
+.texttitle {
+	font-size: 24px;
+	text-align: left;
+	color: rgb(7, 7, 113);
+
+}
+.textbold {
+	font-size: 30px;
+	text-align: left;
+	font-weight: 700;
+	
+}
+.url {
+	font-size: 20px;
+	font-weight: 700;
+	color: blanchedalmond;
+}
+div h2 {
+	color: blue;
+}
+.content .texttitle__item{
+font-size: 24px;
+color: coral;
+}
+div p {
+	color: yellowgreen;
+	font-size: 24px;
+}
+nav ul li {
+	color: grey;
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+.url li {
+	color: blueviolet;
+	margin-bottom: 10px;
+}
+.text{
+	/* Обратились к объектам с классом text на странице */
+	color: green;
+	/* font-size: xx-large; */
+}
+/* Этот приоритетней */
+.paragraph{
+	/* Обратились к объектам с классом text на странице */
+	/* color: red; */
+	font-size: 24px;
+}
