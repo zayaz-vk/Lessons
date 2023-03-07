@@ -1,0 +1,268 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap");
+
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+	font-family: "Roboto";
+	font-size: 30px;
+	
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+/**-------------------------------*/
+
+.adress-container {
+	width: 237px;
+	font-family: Roboto;
+	font-size: 0;
+	margin-bottom: 15px;
+}
+.adress-title {
+	color:#4B4B4B;
+	font-weight: 700;
+	font-size: 14px;
+	text-transform: uppercase;
+	line-height: 22px;
+	padding-left: 25px;
+
+}
+.adress-container-item {
+	font-weight: 400;
+	font-size: 14px;
+	color: #4B4B4B;
+	line-height: 20px;
+	margin: 0px 0px 16px 0px;
+	letter-spacing: 0.15px;
+	padding-right: 10px;
+	padding-left: 25px;
+}
+.adress-container-item:nth-child(2){
+	background-image: url(../img/icon1.png);
+	background-repeat: no-repeat;
+	background-position: 220px 2px;
+	
+}
+.adress-container-item:nth-child(3){
+	background-image: url(../img/smartphone_24px.png);
+	background-repeat: no-repeat;
+	background-position: 220px 2px;
+	
+}
+
+.adress-container-item:nth-child(4){
+	background-image: url(../img/email_24px.png);
+	background-repeat: no-repeat;
+	background-position:220px 2px;
+	
+}
+
+
+.adress-container-item:last-child{
+	margin: 0;
+	background-image: url(../img/timer_24px.png);
+	background-repeat: no-repeat;
+	background-position: 220px 2px;
+}
+.banner {
+	margin-bottom: 200px;
+}
+.banner-container {
+	width: 100%;
+	height: 800px;
+	margin: 0px 0px 0px 0px;
+	background-image: url(../img/banner.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 280px;
+}
+
+.banner-title {
+font-weight: 900;
+font-size: 56px;
+line-height: 56px;
+color: white;
+
+margin-bottom: 48px;
+
+margin-left: 210px;
+
+max-width: 583px;
+}
+
+.banner-button {
+text-align: left;
+width: 210px;
+padding: 10px 5px 10px 15px;
+display: inline-block;
+background-color: #c40b0b;
+
+background-image: url(../img/Button\ Treatment\ 48px.png);
+background-repeat: no-repeat;
+background-position: right;
+font-size: 12px;
+font-weight: 700;
+color: rgb(227, 240, 182);
+text-transform: uppercase;
+line-height: 24px;
+margin-left: 210px;
+
+}
+
+.banner-button:hover {
+	background-color: #c40b0b;
+	padding: 12px;
+	padding-bottom: 12px;
+	text-decoration: 0.5s;
+}
+.banner-button:hover a {
+	color:#1010eb;
+	transition-duration: 0.5s;
+}
+.banner-button a{
+	color:white;
+}
+
+.car-img {
+	max-width:100px;
+	margin:0px auto;
+	margin-bottom: -185px;
+}
+
+.items {
+	width: 100%;
+	background:#02133c;
+	padding: 50px 0;
+	background-image: url(../img/BG\ Image.png);
+	background-size: 100%;
+	margin-bottom: 45px;
+}
+.block-container {
+	max-width: 1020px;
+	margin: 0px auto;
+	margin-bottom: 79px;
+}
+
+.impact {
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 700;
+	color:#D5D5D5;
+	line-height: 27px;
+	margin: 0px 0px 32px 0px;
+}
+
+.block-text {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: white;
+	max-width: 411px;
+}
+
+.items-container {
+	max-width: 1020px;
+	margin: 0 auto;
+
+}
+
+.items-list {
+	font-size: 0;
+}
+
+.item {
+	display: inline-block;
+	width: 25%;
+	padding: 0px 24px 0px 0px;
+	vertical-align: top;
+}
+
+.item-img {
+display: inline-block;
+width: 76px;
+text-align: center;
+vertical-align: top;
+}
+.items-body {
+	display: inline-block;
+	padding: 0px 0px 0px 11px;
+	vertical-align: top;
+}
+
+.item-title {
+	font-weight: 900;
+	color: #C40B0B;
+	font-size: 36px;
+	vertical-align: 42px;
+
+}
+.item-text {
+	color: #f5f5f5;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	max-width: 130px;
+}
+
+/* --------------------------- */
+.footer-list {
+	padding: 7px 300px 0px 20px;
+	max-width: 550px;
+	text-align: center;
+	
+	
+	
+}
+ul li {
+	margin: 0px 0px 20px 0px;
+	font-size: 14px;
+	min-height: 27px;
+	background: url('../img/timer_24px.png') 98% 50% / 18px no-repeat, linear-gradient(to bottom, 
+	rgba(243,226,199,1) 0%,rgba(193,158,103,1) 50%,rgba(182,141,76,1) 51%,rgba(233,212,179,1) 100%);;
+	padding:10px 35px;
+	border-radius: 5px;
+}

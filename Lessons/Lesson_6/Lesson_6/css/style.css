@@ -1,0 +1,335 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	padding: 20px;
+}
+/* ------------------------------ */
+.block {
+	background-color: rgb(205, 229, 27);
+	width: 230px;
+	height: 230px;
+	margin: 50px auto 50px auto;
+	padding: 25px;
+	border-radius: 50%;
+	box-shadow: 10px 30px 3px 15px #000, -10px -30px 3px 15px #ef0909;
+	outline: 5px dotted rgb(14, 161, 230);
+	overflow: hidden;
+	
+
+}
+.inline {
+	background-color: #7a956b;
+	border: 5px solid #000;
+	box-shadow: 10px -10px 40px inset #000;
+	display: inline-block;
+	margin: 0px 0px 20px 0px;
+	filter: drop-shadow(10px 10px 2px #77608d);
+	border-bottom: 10px solid #ef0909;
+	border-top: 10px double #24ef09;
+	border-left: 10px dotted #0909ef;
+	border-right: 10px dashed #24ef09;
+	color: yellow;
+}
+.link {
+	color: rgb(239, 7, 7);
+	background-color: #0d0e0c;
+	padding: 20px;
+	display: inline-block;
+	box-shadow: 0px 0px 2px 20px #dd5555;
+	border-radius: 20px;
+	border: 10px solid coral;
+	opacity: 0.9;
+	margin: 40px 45px;
+	}
+.link-link{
+	color: rgb(239, 216, 7);
+	background-color: #0d0e0c;
+	padding: 20px;
+	display: inline-block;
+	box-shadow: 0px 0px 2px 20px #bfe503;
+	border-radius: 20px;
+	border: 10px solid rgb(228, 213, 10);
+	opacity: 0.7;
+	margin: 0 45px 0px 0px;
+	}
+.link-link-link {
+	color: rgb(7, 239, 15);
+	background-color: #0d0e0c;
+	padding: 20px;
+	display: inline-block;
+	box-shadow: 0px 0px 2px 20px #7fd410;
+	border-radius: 20px;
+	border: 10px solid rgb(94, 225, 17);
+	margin: 0 45px 0px 0px;
+	}
+.link:hover {
+	border: 10px solid rgb(19, 18, 18);
+}
+.link-link-link:hover {
+	border: 10px solid rgb(19, 18, 18);
+}
+.header__menu{
+	font-size: 20px;
+	background-color: #8ccddc;
+}
+.span1 {
+	font-size: 15px;
+	padding: 12px;
+	border-bottom: 2px solid #000;
+	background-color: #ad15e5;
+	display: block;
+	margin: 0px 0px 20px 0px;
+	text-align: justify;
+	}
+.span2 {
+	display: inline-block;
+	border: 5px solid #000;
+	background-color: cornflowerblue;
+	margin: 0px 0px 20px 0px;
+	text-align: center;
+	}
+.span3 {
+	font-family: fantasy;
+	display: block;
+	margin: 0px 0px 20px 0px;
+	border: 1px solid #000;
+	}
+
+.menu__link {
+	color: darkblue;
+	font-size: 36px;
+	display: inline-block;
+	padding: 20px;
+	background-color: #abe00b;
+	border-radius: 20px;
+	font-family: cursive;
+	font-weight: 900;
+	
+}
+.div-top {
+	font-family: cursive, fantasy;
+	font-weight: 700;
+	background-color: #959292;
+	opacity: 0.5;
+	text-align: right;
+	width: 300px;
+	max-height: 200px;
+	overflow: auto;
+	margin: 0 auto 0 auto;
+	
+}
+
+
+/*
+border
+Универсальное свойство border позволяет одновременно 
+установить толщину, 
+стиль и цвет границы вокруг элемента.
+border: 1px solid #000; (размер стиль цвет)
+Основные стили -solid dotted dashed double
+
+Синтаксис общего свойства:
+border: толщина_линии стиль_линии цвет_линии
+
+*/
+/*
+outline
+Универсальное свойство, одновременно устанавливающее цвет, 
+стиль и толщину внешней границы на всех четырех сторонах элемента. 
+В отличие от линии, задаваемой через border, свойство outline 
+не влияет на положение блока и его ширину. 
+Также нельзя задать параметры линии на отдельных сторонах элемента, 
+outline применяется сразу ко всем четырём сторонам.
+*/
+
+/*
+border-radius
+Устанавливает радиус скругления уголков блока.
+border-radius:50%; - кргуг
+Можно использовать вместе с overflow: hidden;
+*/
+
+/*
+box-shadow
+Добавляет тень к элементу.
+box-shadow: сдвиг_по_гориз сдвиг_по_верт радиус расстояние
+Флаг inset для установки внутренней тени
+Можно добавить много теней. На тень влияет свойство border-radius.
+filter: drop-shadow(0px 0px 10px #77608d);
+*/
+
+/*
+opacity
+Определяет уровень прозрачности элемента.
+Отличие opacity:0; от display:none; в том что блок 
+не убирается из верстки а только становиться прозрачным, 
+то есть занимаемое им место остается. Так же, 
+с прозрачными элементами все еще можно взаимодействовать, 
+например кликать по ссылкам.
+*/
+/*
+visibility
+Предназначен для отображения или скрытия элемента.
+Отличие visibility: hidden; от display:none; в том что блок 
+не убирается из верстки а только скрывается, 
+то есть занимаемое им место остается.
+Отличие visibility: hidden; от opacity:0;
+в том что блок скрывается и взаимодействовать с ним нельзя.
+*/
+/*
+.text-link {
+	color: green;
+	border-bottom: 2px dotted;
+	display: inline-block;
+}
+.text-link:hover {
+	color: red;
+}
+*/
+/*
+.link {
+	display: inline-block;
+	background-color: #794f45;
+	display: inline-block;
+	color: #fff;
+	padding: 15px;
+	border: 5px solid red;
+}
+.link:hover {
+	border: 5px solid transparent;
+}
+*/
+
+/* 
+.block {
+	padding: 20px;
+	margin: 0px 0px 30px 0px;
+}
+.block__title {
+	font-weight: 700;
+	font-size: 30px;
+	margin: 0px 0px 20px 0px;
+}
+.block__body {
+}
+*/
+/*
+vertical-align - выравнивает строчные 
+и блочно-строчные объекты по вертикали
+top - по верху
+middle - по центру
+bottom - по низу
+*/
+
+/*
+Схлопывание внешнего отступа происходит 
+только с блочными объектами
+*/
+/*
+.block__texts {
+	font-size: 0;
+}
+
+.block__items {
+	font-size: 0;
+}
+.block__item {
+	display: inline-block;
+	max-width: 200px;
+	max-height: 200px;
+	overflow: hidden;
+	padding: 15px;
+	background-color: #794f45;
+	color: #fff;
+	font-size: 20px;
+	vertical-align: middle;
+}
+
+.span {
+	display: block;
+}
+.link {
+	margin: 0px 0px 20px 0px;
+	display: inline-block;
+}
+.text {
+	display: inline-block;
+	max-width: 100px;
+	background-color: #77608d;
+	padding: 10px;
+	font-size: 16px;
+	margin: 0px 30px 0px 0px;
+}
+
+.block__one,
+.block__two {
+	padding: 30px;
+	color: #fff;
+	font-size: 24px;
+}
+
+.block__one {
+	background-color: #794f45;
+}
+.block__two {
+	background-color: #7a956b;
+	margin: -50px 0px 0px 0px;
+}
+
+.big-text {
+	max-height: 200px;
+	background-color: #77608d;
+	padding: 30px;
+	display: block;
+	font-size: 30px;
+	color: #fff;
+	line-height: 120%;
+	overflow: auto;
+}
+*/

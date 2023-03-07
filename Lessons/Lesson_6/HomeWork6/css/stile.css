@@ -1,0 +1,197 @@
+/* &display=swap&subset=cyrillic-ext */
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap&display=swap&subset=cyrillic-ext');
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Regular.woff2") format("woff2"),
+		 url("../fonts/Gilroy-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Bold.woff2") format("woff2"),
+		 url("../fonts/Gilroy-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+/**Обнуление*/
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	/* font-family: "Gilroy", sans-serif; */
+	line-height: 1;
+	
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/**-------------------------------*/
+
+body {
+	font-family: "League Spartan", sans-serif;
+	background-color: rgb(212, 210, 208);
+}
+
+.header {
+	max-width: 1800px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 30px;
+}
+h1 {
+	font-size: 70px;
+	font-weight: 700;
+	margin: 0px 0px 20px 0px;
+	text-decoration: underline;
+	color: #393e46;
+}
+header .link {
+	font-size: 50px;
+	font-weight: 700;
+	margin: 0px 0px 30px 170px;
+	color: #111215;
+	display: inline-block;
+}
+
+.image {
+	margin: 0 0 10px 0;
+	padding: 10px 10px;
+	max-width: 70%;
+	background: #000;
+	display: block;
+	margin: 0 auto;
+}
+
+/* ======================================================= */
+
+
+.text {
+	color: #e5efef;
+	line-height:  25px;
+	text-align: center;
+	/* border: 2px solid black; */
+	height: 250px;
+	overflow: auto;
+	background-color: rgb(18, 151, 234);
+	margin: 0px 0px 30px 0px;
+}
+.span {
+	background-color: chartreuse;
+	display: inline-block;
+	width: 500px;
+	height: 250px;
+	padding: 10px;
+	margin: 0px 10px 0px 10px;
+	overflow: auto;
+}
+.span-span {
+	background-color: violet;
+	display: inline-block;
+	width: 500px;
+	height: 250px;
+	padding: 10px;
+	margin: 0px 10px 0px 10px;
+	overflow: auto;
+}
+.span-span-span {
+	background-color: chocolate;
+	display: inline-block;
+	height: 250px;
+	width: 500px;
+	padding: 10px;
+	margin: 0px 10px 0px 10px;
+	overflow: auto;
+}
+a {
+	font-family: "Gilroy";
+	font-size: 32px;
+	font-weight: 700;
+	text-align: center;
+	color: #5b8789;
+	margin: 0px 0px 20px 0px;
+	display: inline-block;
+	padding: 20px;
+}
+.text-item {
+	font-size: 24px;
+	
+}
+
+.div {
+	/* background-color: #393e46; */
+	color: rgb(27, 30, 33);
+}
+.div-div {
+	background-color: #2a5daf;
+	color: aliceblue;
+	padding: 50px 10px;
+}
+.spandiv{
+	background-color: #23dd3f;
+	color: rgb(49, 52, 54);
+	padding: 10px;
+	margin: -50px 60px 20px 60px;
+	display: inline-block;
+}
+.span-item {
+	display: inline-block;
+	background-color: deepskyblue;
+	margin: 0px 0px 20px 0px;
+	padding: 16px;
+}
+.p-item {
+	padding: 16px;
+	margin: 0px 0px 20px 0px;
+}
+.paragraph {
+	margin: 0px 80px 10px 20px;
+}
+.text-text {
+	vertical-align: top;
+	display: inline-block;
+	max-height: 300px;
+	max-width: 200px;
+	overflow: auto;
+	background-color: deepskyblue;
+}
